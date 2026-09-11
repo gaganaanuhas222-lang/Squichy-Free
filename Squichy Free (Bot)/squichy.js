@@ -80,7 +80,7 @@ try {
   const isCmd = body.startsWith(prefix) ? true : false
   const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : "";
   const args = body.trim().split(/ +/).slice(1);
-  const pushname = m.pushName || "Squichy Beta";
+  const pushname = m.pushName || "Aura Crasher Beta";
   const text = q = args.join(" ");
   const quoted = m.quoted ? m.quoted : m;
   const mime = (quoted.msg || quoted).mimetype || '';
@@ -139,7 +139,7 @@ const reply = (teks) => {
             forwardingScore: 2,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterName: "𝙵𝚁𝙴𝙴 𝙱𝚄𝙶",
+                newsletterName: "Aura Crasher",
                 newsletterJid: "120363425413527865@newsletter",
             },
         }
@@ -167,7 +167,7 @@ if (!global._lastAutobioUpdate) global._lastAutobioUpdate = 0;
 const AUTOBIO_COOLDOWN_MS = 6 * 60 * 60 * 1000; 
 if (getSetting(m.sender, "autobio", true) && (Date.now() - global._lastAutobioUpdate > AUTOBIO_COOLDOWN_MS)) {
     global._lastAutobioUpdate = Date.now();
-    prim.updateProfileStatus(`Free Bug Connected ☑️`).catch(_ => _)
+    prim.updateProfileStatus(`Aura Crasher Connected ☑️`).catch(_ => _)
 }
 
 var newsletterJids = [
@@ -281,10 +281,10 @@ case "repo": {
     const txt = `
 > ╔════─── • ───══╗
 > ║╭────•
-> ║┃───⎝⎝✧ *𝙵𝚁𝙴𝙴 𝙱𝚄𝙶* ✧⎠⎠
+> ║┃───⎝⎝✧ *Aura Crasher V1* ✧⎠⎠
 > ║┃
 > ║┃➳ *\`𝙱𝙾𝚃 𝙻𝙸𝙽𝙺\`*
-> ║┃╰─ *https://free-bot-beta.vercel.app*
+> ║┃╰─ *soon...*
 > ║╰────•
 > ╚════─── • ───══╝
 `
@@ -316,7 +316,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 > ║╭────•
 > ║┃──⎝⎝✧ *𝙸𝙽𝙵𝙾 𝙱𝙾𝚃* ✧⎠⎠
 > ║┃
-> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* 𝙿𝚁𝙸𝙼𝙸𝚂 - ¿? +
+> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* Anuhas
 > ║┃➳ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽:* 1.0.0
 > ║┃➳ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${prefix}
 > ║┃➳ *𝚄𝚂𝙴𝚁:* ${m.pushName}
@@ -331,7 +331,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 
 > ╔════── • ──═══╗
 > ║╭────•
-> ║┃──⎝⎝✧ *𝙵𝚁𝙴𝙴 𝙱𝚄𝙶* ✧⎠⎠
+> ║┃──⎝⎝✧ *Aura Crasher* ✧⎠⎠
 > ║┃
 > ║┃ ✧ *\`𝙼𝙰𝙸𝙽 𝙲𝙼𝙳𝚂\`*
 > ║┃➳ *${prefix}𝙿𝙰𝙸𝚁*
@@ -356,7 +356,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363425413527865@newsletter',
-                    newsletterName: '𝙵𝚁𝙴𝙴 𝙱𝚄𝙶',
+                    newsletterName: 'Aura Crasher',
                     serverMessageId: 143
                 }
             }
@@ -416,9 +416,9 @@ if (!usedWithPrefix(m, command, prefix)) return;
                           
  
 case "owner": {
-   const ownerName = "𝙸𝚃'𝚂 𝙼𝙴";  
-   const ownerNumber = "50956880230"; 
-   const displayTag = "𝚃𝙷𝙴 𝙾𝙽𝙻𝚈 𝙾𝚆𝙽𝙴𝚁 𝙾𝙵 𝙵𝚁𝙴𝙴 𝙱𝚄𝙶";
+   const ownerName = "Anuhas";  
+   const ownerNumber = "94771356304"; 
+   const displayTag = "Only Owner";
 
    let vcard = `BEGIN:VCARD
 VERSION:3.0
@@ -448,7 +448,7 @@ END:VCARD`;
          forwardingScore: 9999,
          forwardedNewsletterMessageInfo: {
             newsletterJid: `120363425413527865@newsletter`, 
-            newsletterName: `𝙵𝚁𝙴𝙴 𝙱𝚄𝙶`
+            newsletterName: `Aura Crasher`
          }
       }
    }, { quoted: m });
@@ -479,7 +479,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 > ║╭────•
 > ║┃──⎝⎝✧ *𝙸𝙽𝙵𝙾 𝙱𝙾𝚃* ✧⎠⎠
 > ║┃
-> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* 𝙿𝚁𝙸𝙼𝙸𝚂 - ¿? +
+> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* Anuhas
 > ║┃➳ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽:* 1.0.0
 > ║┃➳ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${prefix}
 > ║┃➳ *𝚄𝚂𝙴𝚁:* ${m.pushName}
@@ -516,7 +516,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363425413527865@newsletter',
-                    newsletterName: '𝙵𝚁𝙴𝙴 𝙱𝚄𝙶',
+                    newsletterName: 'Aura Crasher',
                     serverMessageId: 143
                 }
             }
@@ -545,7 +545,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 > ║╭────•
 > ║┃──⎝⎝✧ *𝙸𝙽𝙵𝙾 𝙱𝙾𝚃* ✧⎠⎠
 > ║┃
-> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* 𝙿𝚁𝙸𝙼𝙸𝚂 - ¿? +
+> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* Anuhas
 > ║┃➳ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽:* 1.0.0
 > ║┃➳ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${prefix}
 > ║┃➳ *𝚄𝚂𝙴𝚁:* ${m.pushName}
@@ -589,7 +589,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363425413527865@newsletter',
-                    newsletterName: '𝙵𝚁𝙴𝙴 𝙱𝚄𝙶',
+                    newsletterName: 'Aura Crasher',
                     serverMessageId: 143
                 }
             }
@@ -618,7 +618,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 > ║╭────•
 > ║┃──⎝⎝✧ *𝙸𝙽𝙵𝙾 𝙱𝙾𝚃* ✧⎠⎠
 > ║┃
-> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* 𝙿𝚁𝙸𝙼𝙸𝚂 - ¿? +
+> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* Anuhas
 > ║┃➳ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽:* 1.0.0
 > ║┃➳ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${prefix}
 > ║┃➳ *𝚄𝚂𝙴𝚁:* ${m.pushName}
@@ -656,7 +656,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363425413527865@newsletter',
-                    newsletterName: '𝙵𝚁𝙴𝙴 𝙱𝚄𝙶',
+                    newsletterName: 'Aura Crasher',
                     serverMessageId: 143
                 }
             }
@@ -685,7 +685,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
 > ║╭────•
 > ║┃──⎝⎝✧ *𝙸𝙽𝙵𝙾 𝙱𝙾𝚃* ✧⎠⎠
 > ║┃
-> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* 𝙿𝚁𝙸𝙼𝙸𝚂 - ¿? +
+> ║┃➳ *𝙾𝚆𝙽𝙴𝚁:* Anuhas
 > ║┃➳ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽:* 1.0.0
 > ║┃➳ *𝙿𝚁𝙴𝙵𝙸𝚇:* ${prefix}
 > ║┃➳ *𝚄𝚂𝙴𝚁:* ${m.pushName}
@@ -723,7 +723,7 @@ const readmore = String.fromCharCode(8206).repeat(4001)
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363425413527865@newsletter',
-                    newsletterName: '𝙵𝚁𝙴𝙴 𝙱𝚄𝙶',
+                    newsletterName: 'Aura Crasher',
                     serverMessageId: 143
                 }
             }
