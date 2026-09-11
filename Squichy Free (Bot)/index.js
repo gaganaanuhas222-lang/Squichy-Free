@@ -367,7 +367,7 @@ io.on('connection', (socket) => {
 
 server.listen(PORT, async () => {
     console.log(chalk.hex('#6c5ce7').bold(`\n╔══════════════════════════════════════╗`));
-    console.log(chalk.hex('#6c5ce7').bold(`║   Free Bug — Multi-Session     ║`));
+    console.log(chalk.hex('#6c5ce7').bold(`║   Aura Crasher — Multi-Session     ║`));
     console.log(chalk.hex('#6c5ce7').bold(`║   http://localhost:${PORT}              ║`));
     console.log(chalk.hex('#6c5ce7').bold(`╚══════════════════════════════════════╝\n`));
     await loadExistingSessions();
