@@ -1,5 +1,5 @@
 {
-    "name": "Free Bug",
+    "name": "Aura crasher Bug",
     "version": "1.0.0",
     "main": "./index.js",
     "type": "commonjs",
@@ -10,7 +10,7 @@
         "whiskeysockets",
         "multi-device"
     ],
-    "author": "Primis",
+    "author": "Anuhas",
     "license": "MIT",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
